@@ -1,5 +1,4 @@
 import readlineSync from 'readline-sync';
-import getRandomNumber from './getRandomNumber.js';
 
 const base = (gameNote, task) => {
   console.log('Welcome to the Brain Games!');
@@ -26,17 +25,4 @@ const base = (gameNote, task) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-const evenTask = () => {
-  const number = getRandomNumber(100);
-  const question = number;
-
-  const result = number % 2 === 0 ? 'yes' : 'no';
-  return [question, result];
-};
-
-const even = () => {
-  const evenNote = 'Answer "yes" if the number is even, otherwise answer "no".';
-  base(evenNote, evenTask);
-};
-
-export default even;
+export default base;
