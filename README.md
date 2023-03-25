@@ -22,3 +22,10 @@ You should find the greatest common divisor of  two given numbers.
 Type 'brain-gcd' to start
 Asciinema of brain-gcd below:
 https://asciinema.org/a/ENwa2b3ereAuMWl4CYytK9LbH
+
+
+Brain-progression game!
+Find the hidden number.
+Type 'brain-progression' to start!
+Asciinema of brain-progression below:
+https://asciinema.org/a/FOCBiX5qvYYQ1z6lsamyM3Pxb
